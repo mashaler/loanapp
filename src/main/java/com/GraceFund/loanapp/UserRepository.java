@@ -1,6 +1,5 @@
 package com.GraceFund.loanapp;
 
-import com.GraceFund.loanapp.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
