@@ -1,0 +1,6 @@
+<h2>Apply for a Loan</h2>
+<form (ngSubmit)="apply()">
+  <input type="number" placeholder="Amount" [(ngModel)]="loan.amount" name="amount" required>
+  <input type="number" placeholder="Term (months)" [(ngModel)]="loan.termMonths" name="termMonths" required>
+  <button type="submit">Apply</button>
+</form>
